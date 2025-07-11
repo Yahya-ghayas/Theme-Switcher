@@ -1,0 +1,61 @@
+#root, html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;  
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;
+  width: 100%;        
+  text-align: center;
+}
+
+
+.app.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.app.dark {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.box {
+  margin: 2rem 0;
+  padding: 2rem;
+  width: 300px;
+  border-radius: 12px;
+}
+
+.box.light {
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.box.dark {
+  background: #444;
+  color: white;
+  border: 1px solid #666;
+}
+
+.toggle-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+}
+
+.toggle-btn:hover {
+  background-color: #2980b9;
+}
