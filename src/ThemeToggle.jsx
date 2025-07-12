@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import ThemeContext from "./ThemeContext";
 
-let ThemeToggle = () => {
+const ThemeToggle = () => {
     const {toggleTheme} = useContext(ThemeContext);
 
     return (
